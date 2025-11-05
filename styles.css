@@ -78,6 +78,9 @@ body {
 }
 
 .picture-container {
+  width: 300px;
+  border-radius: 24px;
+  overflow: hidden;
 }
 
 .gallery-section {
