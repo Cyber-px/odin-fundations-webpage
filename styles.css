@@ -1,6 +1,6 @@
 :root {
   --primary-color: #2f2f2f;
-  --secondary-color: #83d475;
+  --secondary-color: #B8860B;
   --main-text-color: #f9faf8;
   --secondary-text-color: #e5e7eb;
   --accent-color: #8B0000;
@@ -84,6 +84,11 @@ body {
 }
 
 .gallery-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #B8860B;
 }
 
 .gallery-title {
@@ -128,5 +133,4 @@ body {
 }
 
 .button:hover {
-  color: ;
 }
