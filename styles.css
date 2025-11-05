@@ -88,7 +88,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  background-color: #B8860B;
 }
 
 .gallery-title {
@@ -101,6 +100,7 @@ body {
 }
 
 .quote-section {
+  background-color: var(--secondary-color);
 }
 
 .inspiring-quote {
