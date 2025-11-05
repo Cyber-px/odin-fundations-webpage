@@ -1,10 +1,10 @@
 :root {
   --primary-color: #2f2f2f;
-  --secondary-color: #b8860b;
+  --secondary-color: #CC5500;
   --main-text-color: #f9faf8;
   --secondary-text-color: #e5e7eb;
   --tertiary-text-color: #1a1a1a;
-  --accent-color: #8b0000;
+  --accent-color: #80FF00;
 }
 
 * {
@@ -138,12 +138,14 @@ body {
   width: 200px;
   height: 60px;
   padding: 16px;
-  text-align: center;
-  color: var(--main-text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--tertiary-text-color);
   background-color: var(--accent-color);
   border: none;
   border-radius: 24px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   cursor: pointer;
 }
