@@ -1,9 +1,9 @@
 :root {
   --primary-color: #2f2f2f;
   --secondary-color: #83d475;
-  --main-text-color: #F9FAF8;
-  --secondary-text-color: #E5E7EB;
-  --accent-color: #ff00ff;
+  --main-text-color: #f9faf8;
+  --secondary-text-color: #e5e7eb;
+  --accent-color: #8B0000;
 }
 
 * {
@@ -22,8 +22,9 @@ body {
 }
 
 .hero-section {
+  width: 100%;
   background-color: var(--primary-color);
-  color: var(--main-text-color);
+  color: var(--secondary-text-colorolor);
 }
 
 .header {
@@ -31,12 +32,13 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .header-logo {
-  height: 80px;
-  width: 80px;
-  margin-right: 430px;
+  font-size: 24px;
+  color: var(--main-text-color);
+  padding-right: 430px;
 }
 
 .links-list {
@@ -46,61 +48,82 @@ body {
 }
 
 .link-text {
-  color: var(--main-text-color);
+  color: var(--secondary-text-color);
   text-decoration: none;
 }
 
 .hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 12px;
+}
+
+.hero-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 16px;
 }
 
 .hero {
+  width: 900px;
+  color: var(--main-text-color);
 }
 
 .hero-text {
-
+  width: 900px;
+  color: var(--secondary-text-color);
 }
 
 .picture-container {
-
 }
 
 .gallery-section {
 }
 
 .gallery-title {
-
 }
 
 .picture-gallery {
-
 }
 
 .picture-border {
-
 }
 
 .quote-section {
 }
 
 .inspiring-quote {
-
 }
 
 .quote-author {
-
 }
 
 .call-action-section {
 }
 
 .call-action-container {
-
 }
 
 .call-action-wrapper {
-
 }
 
 .button {
+  width: 200px;
+  height: 60px;
+  padding: 16px;
+  text-align: center;
+  color: var(--main-text-color);
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 24px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
 
+.button:hover {
+  color: ;
 }
