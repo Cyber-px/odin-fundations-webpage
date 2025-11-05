@@ -1,10 +1,10 @@
 :root {
   --primary-color: #2f2f2f;
-  --secondary-color: #B8860B;
+  --secondary-color: #b8860b;
   --main-text-color: #f9faf8;
   --secondary-text-color: #e5e7eb;
-  --tertiary-text-color: #1A1A1A;
-  --accent-color: #8B0000;
+  --tertiary-text-color: #1a1a1a;
+  --accent-color: #8b0000;
 }
 
 * {
@@ -97,6 +97,7 @@ body {
   font-size: 36px;
   color: var(--tertiary-text-color);
   font-weight: 900;
+  text-align: center;
 }
 
 .picture-gallery {
