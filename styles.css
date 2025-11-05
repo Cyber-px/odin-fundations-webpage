@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #2f2f2f;
+  --secondary-color: #83d475;
+  --accent-color: #ff00ff;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -6,23 +12,71 @@
 
 body {
   height: 100vh;
-  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .hero-section {
-  background-color: #1F2937;
+  background-color: var(--primary-color);
 }
+
+.links-list {
+}
+
+.hero-container {
+}
+
+.hero {
+}
+
+.hero-text {
+
+}
+
+.picture-container {
+
+}
+
 .gallery-section {
+}
+
+.gallery-title {
+
+}
+
+.picture-gallery {
+
+}
+
+.picture-border {
 
 }
 
 .quote-section {
+}
+
+.inspiring-quote {
+
+}
+
+.quote-author {
 
 }
 
 .call-action-section {
+}
+
+.call-action-container {
+
+}
+
+.call-action-wrapper {
+
+}
+
+.button {
 
 }
