@@ -91,6 +91,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   gap: 36px;
+  margin-bottom: 36px;
 }
 
 .gallery-title {
