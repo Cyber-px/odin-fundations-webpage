@@ -24,7 +24,7 @@ body {
 .hero-section {
   width: 100%;
   background-color: var(--primary-color);
-  color: var(--secondary-text-colorolor);
+  color: var(--secondary-text-color);
 }
 
 .header {
