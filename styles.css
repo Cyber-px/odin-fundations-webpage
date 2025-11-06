@@ -171,9 +171,9 @@ body {
 }
 
 .button {
-  width: 200px;
-  height: 60px;
-  padding: 16px;
+  width: 240px;
+  height: 80px;
+  padding: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -187,6 +187,9 @@ body {
 }
 
 .button:hover {
+  background-color: var(--secondary-color);
+  color: white;
+  border: 4px solid white;
 }
 
 .button-call-action {
